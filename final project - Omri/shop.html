@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>shop</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+</head>
+<body>
+<div class="modal-container" id="modal-container">
+    <div class="modal">
+        <h2>Add This Item To Cart?</h2>
+        <button id="yes">Yes</button>
+        <button id="no">No</button>
+    </div>
+</div>
+    <section id="header">
+        <a href="#"><img src="img/tennisball.jpg"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a class="current" href="shop.html">Shop</a></li>
+                <li id="dataNavBar"><a href="data.html">Data</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="history.html">History</a>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <div class="logs">
+                    <li><a href="login.html" id="in">log in</a></li>
+                    <li><a id="out">log out</a></li>
+                    <li><a href="register.html" id="registerNavBar">register</a></li>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <section id="product1" class="section-p1">
+        <input class="searchText" id="searchItems" type="text" placeholder="Search Items">
+        <button class="searchButton fa fa-search" id="submitSearch"></button>
+        <div class="pro-container"></div>
+    </section>
+    <section id="adminOnly">
+        <div id="addItem">
+            <h1>Enter The New Items Details</h1>
+            <input id="newBrandName" type="text" placeholder="Brand Name"><br>
+            <input id="newDescription" type="text" placeholder="Brand Description"><br>
+            <input id="newImgUrl" type="text" placeholder="Image URL"><br>
+            <input id="newPrice" type="text" placeholder="price"><br>
+            <button id="submitItem">Add Item</button>
+        </div>
+        <div id="removeItem">
+            <h1>Enter The Item To Remove</h1>
+            <input id="itemToRemove" type="text" placeholder=" items name as saved in the DB to remove it"><br>
+            <button id="submitRemove">remove Item</button>
+        </div>
+    </section>
+    <script src="generalScripts.js" type="text/javascript"></script>
+    <script src="shopScripts.js"></script>
+</body>
+</html>

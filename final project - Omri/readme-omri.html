@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>readme-omri</title>
+</head>
+<body>
+  <p>
+      Hello! Im Omri and my shops name is TenniStore<br>
+      We sell tennis equipment of all kinds and for all genders and ages<br>
+      we have a contact us page, which from there you can contact us and the messages will go straight to the database (messages.json), an about us page which from there you can learn<br>
+      a few things about the shops founders, a history page which will teach you a few things about tennis.<br>
+      for me it was hard to load the content to the page each time, For example in the shop, when we want to display only the<br>
+      items that match the search, so we have to seek only the wanted items and then insert them to the html.<br>
+      it was also hard to maintain the database and figure out how to use it, since we did not learn how to run a database.<br>
+      my partner is Einav Kaplanski, id-20740247, she did all the home, history, about us, and contact pages, I was in charge of the shop login log out register checkout and cart.<br>
+      our app supports a login and register pages, which makes sure that the details of the users are legal, it has a shop which adds items to the cart<br>
+      on click, and at the bottom of the shop an admin only section that adds and removes from the shop, in order to remove an item all you have to do is to<br>
+      type the id of the product in the text bar ('pro#, they are all saved in the database'), and in order to add item you need to specify the name, description,<br>
+      img url, and price. it checks only if the price is legal and if it isn't it will pop up a message. there is an image (the url is img/products/itemToAdd.jpg) to test the item adding.<br>
+      There is also a search bar in the shop that allows to search for items that match some substring of the items name or description<br>
+      which displays all items that match the search. the cart has a table which sums up all the information, and supports a remove from the cart operation<br>
+      and proceed to checkout, and from the checkout only an option to check out. It also has another admin only html page, data, which is shown on the navbar<br>
+      only for the admin. it displays a summary of all the users and their actions on the website.<br>
+      the site has also 3 databases, one that saves all the information about all the users (usersDB.json) (saves the name as a key, then an object that contains the password,<br>
+      login history, the items in the cart, the cart price, the buy history, and the mail of the user corresponding to the name), one that has all the information about the shops products (productsDB.json)<br>
+      (each product has a unique product id of the format pro#, the description, the image url, the name, and the price, and one that keeps messages from the contact us (messages.json).
+
+  </p>
+</body>
+</html>

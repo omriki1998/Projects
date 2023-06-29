@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+
+</head>
+<body>
+<section id="header">
+    <a href="#"><img src="img/tennisball.jpg"></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li id="dataNavBar"><a href="data.html">Data</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="history.html">History</a>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="current" href="cart.html">Cart</a></li>
+            <div class="logs">
+                <li><a id="in" href="login.html">log in</a> </li>
+                <li><a id="out">log out</a></li>
+                <li><a href="register.html" id="registerNavBar">register</a></li>
+            </div>
+        </ul>
+    </div>
+</section>
+<section id="cart" class="section-p1">
+    <table width="100%">
+        <thead>
+        <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+        </tr>
+        </thead>
+        <tbody id="aaa">
+        </tbody>
+    </table>
+    <a href="checkout.html"><button id="checkoutButton">CHECKOUT</button></a>
+</section>
+<script src="cartScript.js"></script>
+<script src="generalScripts.js"></script>
+</body>
+</html>
